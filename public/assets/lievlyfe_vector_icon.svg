@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="320" height="100">
+  <defs>
+    <!-- Red bolt gradient -->
+    <linearGradient id="redGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B91C1C" />
+      <stop offset="40%" stop-color="#DC2626" />
+      <stop offset="80%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#F87171" />
+    </linearGradient>
+    
+    <!-- Red bolt top edge highlight -->
+    <linearGradient id="redHighlight" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DC2626" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Silver wing gradient -->
+    <linearGradient id="silverGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="30%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Red Stylized Lightning Bolt -->
+  <g>
+    <!-- Main Bolt Body -->
+    <polygon points="12,61 142,6 104,42 165,48 116,94 92,71 61,94" fill="url(#redGrad)" />
+    
+    <!-- Top-edge 3D Bevel highlight -->
+    <polyline points="12,61 142,6 104,42" fill="none" stroke="url(#redHighlight)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Silver Aerodynamic Swoosh Wing -->
+  <path d="M 138,13 Q 235,5 318,19 Q 225,44 153,62 L 186,28 Z" fill="url(#silverGrad)" />
+</svg>
