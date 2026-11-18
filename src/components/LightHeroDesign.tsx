@@ -744,7 +744,7 @@ export default function LightHeroDesign({
             >
               <div className={`relative w-full h-full ${hideBatteryImage ? "opacity-0 pointer-events-none" : "animate-hero-float"}`}>
                 <Image
-                  src="/assets/lievlyfe_hero_battery_v4.png"
+                  src="/assets/lievlyfe_hero_battery_v5.png"
                   alt="LievLyfe LiFePO4 Premium Lithium Battery"
                   fill
                   sizes="(max-width: 640px) 380px, (max-width: 1024px) 540px, 620px"
@@ -770,7 +770,7 @@ export default function LightHeroDesign({
             >
               <div className={`relative w-full h-full ${hideBatteryImage ? "opacity-0 pointer-events-none" : "animate-hero-float"}`}>
                 <Image
-                  src="/assets/lievlyfe_hero_battery_v4.png"
+                  src="/assets/lievlyfe_hero_battery_v5.png"
                   alt="LievLyfe LiFePO4 Premium Lithium Battery"
                   fill
                   sizes="(max-width: 1024px) 450px, (max-width: 1440px) 550px, 600px"

@@ -463,7 +463,7 @@ export default function InteractiveScrollPage() {
               }`}
             >
               <Image
-                src="/assets/lievlyfe_hero_battery_v4.png"
+                src="/assets/lievlyfe_hero_battery_v5.png"
                 alt="LievLyfe LiFePO4 Premium Lithium Battery"
                 fill
                 sizes="(max-width: 640px) 305px, (max-width: 1024px) 390px, (max-width: 1440px) 520px, 600px"
